@@ -1,47 +1,214 @@
-
-
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto Canva Incorporado</title>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-    }
-    
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramos A Seg - CFTV</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <iframe
-        src="https://www.canva.com/design/DAGp3X7EyzQ/s5QYPR61dsTLN0UzLUbMgw/view?embed"
+  <header>
+    <img src="Inspiring Bible Verses for Daily Motivation.jpg" alt="Fundo Ramos A Seg" class="bg-logo" />
+    <div class="overlay">
+      <h1 class="titulo">RAMOS A SEG 
+      <p class="subtitulo">Instalação de Câmeras de Segurança</p>
+    </h1>
+    <br>
+    <br>
+    <br>
+
+     <section>
+        <h2>Nossos Serviços</h2>
+        <div class="servicos">
+          <div class="servico">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8PSRTxGRY9bngG5wtENhrYoXS8wtV0SHICw&s" alt="Instalação de câmeras">
+            <h3>Instalação Profissional</h3>
+            <p>Equipamentos modernos com instalação discreta e eficaz.</p>
+          </div>
+          <div class="servico">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdqg6NOOunibTB3I1jOypoXOmQtCw3tBxbg&s" alt="Monitoramento online">
+            <h3>Monitoramento Online</h3>
+            <p>Acesse as câmeras em tempo real de qualquer lugar pelo celular.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Veja como funciona</h2>
+        <div class="video">
+          <!-- Você pode trocar o link abaixo por seu vídeo do YouTube ou local -->
+          <iframe width="100%" height="315" src="max.mp4" 
+            title="Demonstração de CFTV" frameborder="2" allowfullscreen></iframe>
+
+            <iframe width="100%" height="315" src="max.mp4" 
+            title="Demonstração de CFTV" frameborder="2" allowfullscreen></iframe>
+        </div>
+      
        
-      ></iframe>
-  
-</html>
+    </div>
+  </header>
 
+  <main>
 
- <!--allowfullscreen
-        loading="lazy"-->
- 
+    <section>
+      <h2>Fale conosco</h2>
+      <p>Entre em contato pelo WhatsApp ou Instagram para solicitar um orçamento gratuito.</p>
+<br>
 
-   
-      <!--<iframe
-        src="https://www.canva.com/design/DAGp3X7EyzQ/s5QYPR61dsTLN0UzLUbMgw/view?embed"
-        allowfullscreen
-        loading="lazy"
-      ></iframe>
-    </div>-->
+      <img src="1.png" alt="contato" width="50px">
 
-    <a class="link-canva"
-       href="https://www.canva.com/design/DAGp3X7EyzQ/s5QYPR61dsTLN0UzLUbMgw/view?utm_content=DAGp3X7EyzQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
-       target="_blank" rel="noopener">
-     
-  </div>
+      <img src="2.png"  alt="Monitoramento online" width="50px">
+      
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ramos A Seg - Segurança Eletrônica</p>
+  </footer>
 </body>
 </html>
+
+
+
+
+
+<style>
+
+    background-image: url('banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(to bottom, #0d0d1a, #25024f);
+    }
+    
+    header {
+      position: relative;
+      height: 200em;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .bg-logo {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.3);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    
+    .overlay {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    
+    .titulo {
+      font-size: 3rem;
+      color: #a64dff;
+      margin-bottom: 1rem;
+    }
+    
+    .subtitulo {
+      font-size: 1.5rem;
+      color: #fff;
+    }
+    
+    main {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    
+    section {s
+        padding: 1rem 1rem;
+      margin-bottom: 3rem;
+      text-align: center ;
+    }
+    
+    h2 {
+      color: #a64dff;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    
+    p {
+      color: #eaeaea;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    
+    .servicos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    
+    .servico {
+      width: 300px;
+      background: #181828;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 0 10px #a64dff33;
+    }
+    
+    .servico img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    
+    .video iframe {
+      border-radius: 10px;
+      max-width: 100%;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #000;
+      color: #999;
+      font-size: 0.9rem;
+    }
+    
+    /* Responsivo */
+    @media (max-width: 768px) {
+      .titulo {
+        font-size: 2.2rem;
+      }
+    
+      .subtitulo {
+        font-size: 1.2rem;
+      }
+    
+      .servicos {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .servico {
+        width: 100%;
+      }
+    }
+    
+    </style>
