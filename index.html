@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projeto Canva Integrado</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 40px;
+      text-align: center;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-bottom: 16px;
+      font-size: 2em;
+    }
+    .iframe-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* proporção 16:9 para vídeos e apresentações */
+      margin: 24px 0;
+      box-shadow: 0 2px 8px rgba(63,69,81,0.16);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    .link-canva {
+      display: inline-block;
+      margin-top: 12px;
+      font-size: 1em;
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .link-canva:hover {
+      text-decoration: underline;
+    }
+    p {
+      margin-top: 16px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  
+ 
+
+    <div class="iframe-wrapper">
+      <iframe
+        src="https://www.canva.com/design/DAGp3X7EyzQ/s5QYPR61dsTLN0UzLUbMgw/view?embed"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <a class="link-canva"
+       href="https://www.canva.com/design/DAGp3X7EyzQ/s5QYPR61dsTLN0UzLUbMgw/view?utm_content=DAGp3X7EyzQ&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
+       target="_blank" rel="noopener">
+     
+  </div>
+</body>
+</html>
